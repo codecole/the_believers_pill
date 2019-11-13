@@ -10,7 +10,8 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
   int imageNumber = 1;
 
   void backPage() {
-    if (102 > imageNumber) {
+    if (5 > imageNumber) {
+      //the number of images is actually 102, but for open source purpose
       setState(() {
         imageNumber++;
       });
